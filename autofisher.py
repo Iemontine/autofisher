@@ -16,8 +16,11 @@ elif level == 5:
     toss_time = 1.9
 
 screen_size = pyautogui.size()
+
+# TODO: Add support for different resolutions.. somehow
 x = int(screen_size.width / 2 + 380) # 1340
 y = int(screen_size.height / 2 + 400) # 940
+
 print("Gotcha! Please open Unturned and make sure a bob is already in the water. Press \"p\" to toggle pause.")
 time.sleep(5)
 last_color = (0,0,0)
